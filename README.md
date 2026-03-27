@@ -2,14 +2,15 @@
 
 > **WIP!**
 
-A [vis](https://github.com/martanne/vis) theme inspired by Vim's builtin desert theme, heavily modified to my liking :).
+A [vis](https://github.com/martanne/vis) theme inspired by Vim's builtin desert theme, and Gruvbox's olive green, heavily modified to my liking :).
 
 ## Usage
 
 Just do:
 
 ~~~bash
-% wget
+% mkdir -p ~/.config/vis/themes
+% wget https://raw.githubusercontent.com/rosell23/vis-lut/refs/heads/main/themes/lut.lua ~/.config/vis/themes/lut.lua
 ~~~
 
 And add this to your `visrc.lua`:
