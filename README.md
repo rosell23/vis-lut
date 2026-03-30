@@ -1,4 +1,4 @@
-# vis-lut
+# lut-theme
 
 ![lut opening a its own theme file and a C file from the [anntp](https://scm.mariorosell.es/anntp) library](lut.png)
 
@@ -9,8 +9,8 @@ A [vis](https://github.com/martanne/vis) theme inspired by Vim's builtin desert 
 Just do:
 
 ~~~bash
-% mkdir -p ~/.config/vis/themes
-% wget https://raw.githubusercontent.com/rosell23/vis-lut/refs/heads/main/themes/lut.lua ~/.config/vis/themes/lut.lua
+% mkdir -p ~/.config/vis/themes/
+% wget https://raw.githubusercontent.com/rosell23/vis-lut/refs/heads/main/themes/vis.lua ~/.config/vis/themes/vis.lua
 ~~~
 
 And add this to your `visrc.lua`:
